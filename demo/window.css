@@ -1,0 +1,52 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.window_boundingBox{
+	position: fixed;
+	border: 1px solid #000;
+	box-shadow: 0 0 12px rgba(0,0,0,5);
+	background-color: #fff;
+}
+.window_boundingBox .window_header{
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	background: #333;
+	color: #fff;
+}
+.window_boundingBox .window_body{
+	padding: 10px;
+	line-height: 20px;
+}
+.window_boundingBox .window_footer .window_alertBtn{
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+}
+.window_boundingBox .window_closeBtn{
+	position: absolute;
+	width: 22px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.window_mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background:#000;
+	opacity: .3;
+}
+
+/*skin for a*/
+.window_skin_a.window_boundingBox{}
+.window_skin_a .window_alertBtn{}
+.window_skin_a .window_header{}
+.window_skin_a .window_closeBtn{}
